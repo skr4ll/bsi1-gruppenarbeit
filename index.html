@@ -1,14 +1,108 @@
- <!DOCTYPE html>
-<html>  
+<!DOCTYPE html>
+<html lang="en">
+    
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webseite</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">    
-    <link rel="stylesheet" href="css/ .css"> 
-	  <script src="js/ .js" defer></script>
+    <title>Random Group</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">  
+    <link rel="stylesheet" href="css/marilis-styles.css"> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <script src="js/marilis-scripts.js" defer></script>
   </head>
+    
   <body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="pages/tourdates.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR DATES</a>
+        <a href="pages/contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+        <a href="pages/recommendations.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RECOMMENDATIONS</a>
+      </div>
+    </div> <br>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+      <a href="tourdates.hmtl" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR DATES</a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+      <a href="recommendations.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RECOMMENDATIONS</a>
+    </div> <br>
+
+    <!-- Automatic Slideshow Images -->
+    <div class="mySlides w3-display-container w3-center">
+      <img src="img/crowd.jpg" style="width:100%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <p><b>Our amazing fans!</b></p>   
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="img/guitar.jpeg" style="width:100%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <p><b>No band without a guitar!</b></p>    
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="img/singer.jpg" style="width:100%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <p><b>No band without a singer!</b></p>    
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="img/bass.jpg" style="width:100%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <p><b>No band without a bass!</b></p>    
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="img/drums.jpg" style="width:100%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <p><b>No band without drums!</b></p>    
+      </div>
+    </div>
+
+     <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">THE BAND</h2>
+    <p class="w3-opacity"><i>We love music</i></p>
+    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+    <!-- Accordion -->
+     <div id="acc">
+      <button class="accordion">Khanh</button>
+      <div class="panel">
+        <p>Drums</p>
+        <p>“Average band with a great drummer sounds great, great band with an average drummer sounds average.” - Buddy Rich</p>
+      </div>
+      
+      <button class="accordion">Linea</button>
+      <div class="panel">
+        <p>Vocals</p>
+        <p>“Words make you think. Music makes you feel. A song makes you feel a thought.” - Yip Harburg</p>
+      </div>
+      
+      <button class="accordion">Marilis</button>
+      <div class="panel">
+        <p>Bass</p>
+        <p>“The bass, no matter what kind of music you're playing, it just enhances the sound and makes everything sound more beautiful and full. - Charlie Haden </p>
+      </div>
+      
+      <button class="accordion">Philipp</button>
+      <div class="panel">
+        <p>Guitar</p>
+        <p>“I’m not trying to play the guitar. I’m trying to play music.” - Michael Hedges</p>
+      </div>
+     </div>
 
   </body>
 </html>
