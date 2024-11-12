@@ -1,0 +1,40 @@
+body {font-family: "Lato", sans-serif}
+
+/* Slideshow */
+.mySlides {
+  display: none;
+}
+
+.mySlides:first-child {
+  display: block;
+}
+
+
+ /* Accordion */
+ /* Style the buttons that are used to open and close the accordion panel */
+ .accordion {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    transition: 0.2s;
+    border: 3px solid white;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    /* background-color: #f4f4f4; */
+    border: 3px solid black;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color:#eeeeee;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  } 

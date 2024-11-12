@@ -1,0 +1,9 @@
+#contact {
+    max-width:800px;
+}
+.w3-col m6 w3-large w3-margin-bottom {
+   width: 30px;
+}
+.w3-row-padding {
+    margin:0 -16px 8px -16px;
+}
