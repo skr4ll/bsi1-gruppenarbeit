@@ -1,1 +1,62 @@
 <!-- Page for Philipp's part -->
+
+<!DOCTYPE html>
+<html lang="de">
+    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOUR</title>
+    <link rel="icon" type="image/x-icon" href="/img/tour_favicon.ico">    
+    <link rel="stylesheet" href="..\css\linea_styles.css"> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <script src="/js/philipp-script.js" defer></script>
+  </head>
+
+  <body class="w3-black">
+    <div class="w3-top">
+      <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="/index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="/pages/tourdates.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR DATES</a>
+        <a href="/pages/contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+        <a href="/pages/recommendations.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RECOMMENDATIONS</a>
+      </div>
+    </div><br><br>
+    <div class="w3-container">
+      <h2 class="w3-wide">Random Group 2024/25 whatever.js WorldTour</h2>
+      <form onsubmit="filter()">
+      <label for="location">Veranstaltungsort:</label>
+      <select name="location" id="location">
+        <option value="" selected>Auswahl</option>
+        <option value="" disabled>Kontinent</option>
+        <option value="EU">EU</option>
+        <option value="NA">NA</option>
+        <option value="SA">SA</option>
+        <option value="OC">OC</option>
+        <option value="AS">AS</option>
+        <option value="" disabled>Land</option>
+        <option value="DE">DE</option>
+        <option value="UK">UK</option>
+        <option value="US">US</option>
+        <option value="JP">JP</option>
+        <option value="BR">BR</option>
+        <option value="AU">AU</option>
+        <option value="MX">MX</option>
+        <option value="FR">FR</option>
+        <option value="CA">CA</option>
+      </select>
+      <input type="checkbox" id="sale-status" name="sale-status" value="Bike">
+      <label for="sale-status"> Nur on-sale</label>
+      <input type="checkbox" id="sitze-vorhanden" name="sitze-vorhanden" value="Bike">
+      <label for="sitze-vorhanden"> Sitzplätze</label>
+      <input type="checkbox" id="stehen-vorhanden" name="stehen-vorhanden" value="Bike">
+      <label for="stehen-vorhanden"> Stehplätze</label>
+      <input type="submit" value="Filtern">
+      </form>
+      <div id="div_venues"></div>
+    </div>
+  </body>
+</html>
