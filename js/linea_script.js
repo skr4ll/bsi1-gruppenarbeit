@@ -12,7 +12,7 @@ const members = [
     },
     {
         Name: "Philipp",
-        Genre: "tba",
+        Genre: "Rock",
         Song: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1Mzm1CNqVxtwbCYhOo843s?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
     },
 
