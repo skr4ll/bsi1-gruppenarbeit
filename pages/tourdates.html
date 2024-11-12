@@ -1,1 +1,40 @@
 <!-- Page for Philipp's part -->
+
+<!DOCTYPE html>
+<html lang="de">
+    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOUR</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">    
+    <!-- <link rel="stylesheet" href="style.css">  -->
+	  <script src="js/philipp-script.js" defer></script>
+  </head>
+
+  <body>
+    <h1>Random Group 2024/25 whatever.js WorldTour</h1>
+    <form onsubmit="lol()">
+      <label for="cars">Filter:</label>
+      <select name="cars" id="cars">
+        <option value="" selected>Kontinent</option>
+        <option value="volvo">Volvo</option>
+      </select>
+      <select name="cars" id="cars">
+        <option value="">Konti</option>
+        <option value="volvo">Volvo</option>
+      </select>
+      <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+      </select>
+      <input type="checkbox" id="sale-status" name="sale-status" value="Bike">
+      <label for="sale-status"> Nur on-sale</label>
+      <input type="checkbox" id="sitze-vorhanden" name="sitze-vorhanden" value="Bike">
+      <label for="sitze-vorhanden"> Sitzplätze</label>
+      <input type="checkbox" id="stehen-vorhanden" name="stehen-vorhanden" value="Bike">
+      <label for="stehen-vorhanden"> Stehplätze</label>
+      <input type="submit" value="Submit">
+    </form>
+    <div id="div_venues"></div>
+  </body>
+</html>

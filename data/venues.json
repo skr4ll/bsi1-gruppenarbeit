@@ -1,0 +1,136 @@
+{
+  "venues": [
+    {
+      "name": "Lanxess Arena",
+      "stadt": "Köln",
+      "land": "DE",
+      "kontinent": "EU",
+      "preis": 100,
+      "stehplatz": "ja",
+      "sitzplatz": "ja",
+      "status": "on-sale",
+      "datum": "2024-11-11",
+      "einlass": "19:00"
+    },
+    {
+      "name": "O2 Arena",
+      "stadt": "London",
+      "land": "UK",
+      "kontinent": "EU",
+      "preis": 120,
+      "stehplatz": "ja",
+      "sitzplatz": "ja",
+      "status": "sold-out",
+      "datum": "2024-11-15",
+      "einlass": "18:30"
+    },
+    {
+      "name": "Madison Square Garden",
+      "stadt": "New York",
+      "land": "US",
+      "kontinent": "NA",
+      "preis": 150,
+      "stehplatz": "nein",
+      "sitzplatz": "ja",
+      "status": "on-sale",
+      "datum": "2024-11-20",
+      "einlass": "20:00"
+    },
+    {
+      "name": "Accor Arena",
+      "stadt": "Paris",
+      "land": "FR",
+      "kontinent": "EU",
+      "preis": 90,
+      "stehplatz": "ja",
+      "sitzplatz": "nein",
+      "status": "on-sale",
+      "datum": "2024-12-01",
+      "einlass": "18:00"
+    },
+    {
+      "name": "Nippon Budokan",
+      "stadt": "Tokyo",
+      "land": "JP",
+      "kontinent": "AS",
+      "preis": 130,
+      "stehplatz": "nein",
+      "sitzplatz": "ja",
+      "status": "on-sale",
+      "datum": "2024-12-05",
+      "einlass": "19:00"
+    },
+    {
+      "name": "Allianz Parque",
+      "stadt": "São Paulo",
+      "land": "BR",
+      "kontinent": "SA",
+      "preis": 110,
+      "stehplatz": "ja",
+      "sitzplatz": "ja",
+      "status": "sold-out",
+      "datum": "2024-12-10",
+      "einlass": "18:30"
+    },
+    {
+      "name": "Mercedes-Benz Arena",
+      "stadt": "Berlin",
+      "land": "DE",
+      "kontinent": "EU",
+      "preis": 95,
+      "stehplatz": "ja",
+      "sitzplatz": "ja",
+      "status": "on-sale",
+      "datum": "2024-12-15",
+      "einlass": "20:00"
+    },
+    {
+      "name": "Staples Center",
+      "stadt": "Los Angeles",
+      "land": "US",
+      "kontinent": "NA",
+      "preis": 140,
+      "stehplatz": "nein",
+      "sitzplatz": "ja",
+      "status": "on-sale",
+      "datum": "2025-01-10",
+      "einlass": "19:00"
+    },
+    {
+      "name": "Sydney Opera House",
+      "stadt": "Sydney",
+      "land": "AU",
+      "kontinent": "OC",
+      "preis": 200,
+      "stehplatz": "nein",
+      "sitzplatz": "ja",
+      "status": "sold-out",
+      "datum": "2025-01-15",
+      "einlass": "19:30"
+    },
+    {
+      "name": "Arena Ciudad de México",
+      "stadt": "Mexico City",
+      "land": "MX",
+      "kontinent": "NA",
+      "preis": 115,
+      "stehplatz": "ja",
+      "sitzplatz": "ja",
+      "status": "on-sale",
+      "datum": "2025-01-20",
+      "einlass": "18:00"
+    },
+    {
+      "name": "Scotiabank Arena",
+      "stadt": "Toronto",
+      "land": "CA",
+      "kontinent": "NA",
+      "preis": 125,
+      "stehplatz": "ja",
+      "sitzplatz": "ja",
+      "status": "on-sale",
+      "datum": "2025-01-25",
+      "einlass": "19:00"
+    }
+  ]
+}
