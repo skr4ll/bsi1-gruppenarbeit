@@ -3,7 +3,7 @@ const venue_div = document.getElementById("div_venues");
 const error_div = document.getElementById("div_error");
 
 async function fetchVenues() {
-    const response = await fetch('data/venues.json');
+    const response = await fetch('/data/venues.json');
     const data = await response.json();
     return data.venues;
   }
